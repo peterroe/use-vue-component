@@ -3,7 +3,7 @@
  * @Author: 林舒恒
  * @Date: 2021-10-10 14:04:45
  * @LastEditors: 林舒恒
- * @LastEditTime: 2021-10-16 14:45:24
+ * @LastEditTime: 2021-10-16 15:23:23
  */
 import React from 'react'
 import Vue from 'vue'
@@ -42,4 +42,4 @@ export function uvc(test) {
 }
 export function uvi(component) {
     Vue.use(component)
-}
+} 

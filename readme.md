@@ -13,7 +13,7 @@ module.exports = {
         [
             'docusaurus-plugin-usevue',
             {
-            name: 'usevue'
+                name: 'usevue'
             },
         ],
     ],
