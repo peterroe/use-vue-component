@@ -3,7 +3,7 @@
  * @Author: 林舒恒
  * @Date: 2021-10-10 14:04:45
  * @LastEditors: 林舒恒
- * @LastEditTime: 2021-10-16 13:17:59
+ * @LastEditTime: 2021-10-16 14:45:24
  */
 import React from 'react'
 import Vue from 'vue'
@@ -19,7 +19,7 @@ function randomCoding(){
     return idvalue;
 }
 
-export function importv(test) {
+export function uvc(test) {
     return class VueComponent extends React.Component {
         constructor(props) {
             super(props)
@@ -40,6 +40,6 @@ export function importv(test) {
         }
     };
 }
-export function installv(component) {
+export function uvi(component) {
     Vue.use(component)
 }
