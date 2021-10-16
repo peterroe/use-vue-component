@@ -1,6 +1,6 @@
 {
   "name": "importv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "rollup": "^2.58.0",
-    "webpack": "^5.58.1",
-    "webpack-cli": "^4.9.0"
-  },
+  "devDependencies": {},
   "dependencies": {
     "react": "^17.0.2",
     "vue": "^2.6.14"
