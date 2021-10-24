@@ -1,12 +1,12 @@
 {
   "name": "use-vue-component",
-  "version": "1.0.8",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.9",
+  "description": "在docusaurus中使用vue2组件",
+  "main": "dist/uvc.esm.js",
   "scripts": {
-    "build": "rollup --config",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup --config"
   },
+  "keywords": ["docusaurus","docusaurus-plugin","vue"],
   "author": "lsh",
   "license": "ISC",
   "devDependencies": {
