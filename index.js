@@ -1,22 +1,11 @@
-/*
- * @Descripttion: 
- * @Author: 林舒恒
- * @Date: 2021-10-10 14:04:45
- * @LastEditors: 林舒恒
- * @LastEditTime: 2021-10-16 15:23:23
- */
 import React from 'react'
 import Vue from 'vue'
 
 function randomCoding(){
-    //创建26个字母数组
     let arr = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-    let idvalue ='';
-    const n = 16;//这个值可以改变的，对应的生成多少个字母，根据自己需求所改
-    for(let i=0;i<n;i++){
-       idvalue+=arr[Math.floor(Math.random()*26)];
-    }
-    return idvalue;
+    const len = 16
+    
+    return new Array(len).fill().map(_ => arr[Math.floor(Math.random() * 26)]).join()
 }
 
 export function uvc(test) {
