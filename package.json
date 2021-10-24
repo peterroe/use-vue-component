@@ -9,7 +9,8 @@
   "author": "lsh",
   "license": "ISC",
   "devDependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "rollup": "^2.58.0"
   },
   "dependencies": {
     "vue": "^2.6.14"
