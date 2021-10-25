@@ -15,7 +15,9 @@ Two **NPM packages** need to be installed:
 yarn add docusaurus-plugin-usevue use-vue-component
 ```
 
-Another plugin address:[https://github.com/peterroe/docusaurus-plugin-usevue](https://github.com/peterroe/docusaurus-plugin-usevue)
+Another plugin address:
+
+[https://github.com/peterroe/docusaurus-plugin-usevue](https://github.com/peterroe/docusaurus-plugin-usevue)
 
 # Import
 
@@ -79,7 +81,7 @@ sidebar_position: 1
 ## Getting Started
 
 import {uvc} from 'use-vue-component'  //Import conversion package
-import test from './text.vue'  ///Import Vue components
+import test from './text.vue'  //Import Vue components
 
 export const HelloWorld = uvc(test)  //transform
 
