@@ -5,10 +5,10 @@
 
 在组件方面， Docusaurus 仅仅原生支持渲染 **React组件**
 
-而本插件将帮助您在 Docusaurus 中渲染你编写 **Vue组件**
+**而本插件将帮助您在 Docusaurus 中渲染你编写 Vue组件**
 
 
-[中文](https://github.com/peterroe/use-vue-component/blob/master/readme.md) ｜ [English](https://github.com/peterroe/use-vue-component/blob/master/readme.en.md)
+中文 ｜ [English](https://github.com/peterroe/use-vue-component/blob/master/readme.en.md)
 
 # ⚡安装
 
@@ -21,7 +21,9 @@ yarn add docusaurus-plugin-usevue use-vue-component
 另一个插件地址：[https://github.com/peterroe/docusaurus-plugin-usevue](https://github.com/peterroe/docusaurus-plugin-usevue)
 
 # 插件导入
+
 在**docusaurus.config.js**文件中，添加如下配置
+
 ```js
 module.exports = {
   // ...
@@ -89,4 +91,4 @@ export const HelloWorld = uvc(test)  //转换
 
 # 渲染结果
 
-![df](https://img-blog.csdnimg.cn/a08bd8b839f44074a3f8b60da8af6e59.png)
+![image](https://img-blog.csdnimg.cn/a08bd8b839f44074a3f8b60da8af6e59.png)
