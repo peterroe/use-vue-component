@@ -5,7 +5,7 @@
 
 In terms of components, docusaurus only supports native rendering **react components**
 
-This plugin will help you render **Vue components** you write in docusaurus
+**This plugin will help you render Vue components you write in docusaurus**
 
 # ⚡install
 
